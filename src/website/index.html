@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>genshin_mat_tracker</title>
+  </head>
+
+  <!-- sidebar -->
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
+      <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#"
+        >genshin_mat_tracker</a
+      >
+    </nav>
+
+    <!-- sidebar -->
+    <div class="sidebar-container">
+      <div class="sidebar-logo">Menu</div>
+      <ul class="sidebar-navigation">
+        <li class="header">Navigation</li>
+        <li>
+          <a href="#">
+            <i class="fa fa-home" aria-hidden="true"></i> placeholder
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa fa-tachometer" aria-hidden="true"></i> placeholder
+          </a>
+        </li>
+        <li class="header">Another Menu</li>
+        <li>
+          <a href="#">
+            <i class="fa fa-users" aria-hidden="true"></i> placeholder
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa fa-cog" aria-hidden="true"></i> placeholder
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa fa-info-circle" aria-hidden="true"></i> placeholder
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="col-container jumbotron">
+      <div class="content-container">
+        <h1>Weapon Selector</h1>
+        <br />
+        <h3>How to Use:</h3>
+        <p>
+          Select the weapon that you want to level up. Then, enter in the
+          current and target levels. Click the calculate button on the bottom
+          when you're done.
+        </p>
+
+        <h3>Weapon</h3>
+        <select id="weapSelect">
+          <option value="something goes here" id="weap">placeholder</option>
+        </select>
+
+        <p>Current Level</p>
+        <form id="lvlCalc">
+          <input id="currLevel" class="input" type="number" />
+
+          <p>Target Level</p>
+          <input id="tarLevel" class="input" type="number" />
+          <br /><br />
+          <button class="button is-large is-fullwidth is-primary is-outlined">
+            Calculate
+          </button>
+        </form>
+      </div>
+
+      <div class="content-container">
+        <h1>Types of Materials and Amount Needed</h1>
+
+        <h3>Types:</h3>
+        <p>Current Weapon</p>
+        <p id="weapName">will show up here</p>
+
+        <p>Current Level</p>
+        <p id="x">will show up here</p>
+
+        <p>Target Level</p>
+        <p id="y">will show up here</p>
+
+        <h3>Amount:</h3>
+        <p>placeholder</p>
+      </div>
+
+      <div class="content-container">
+        <h1>Sources of Mats.</h1>
+        <p>WIP for now</p>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05)">
+      ©
+      <script>
+        document.write(new Date().getFullYear());
+      </script>
+      <a
+        class="text-reset fw-bold"
+        href="https://github.com/Atypics3/genshin_mat_tracker"
+        >Source Code</a
+      >
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="script.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
